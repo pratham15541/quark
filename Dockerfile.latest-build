@@ -21,3 +21,4 @@ COPY . .
 
 # (optional) Normalize test problem files if needed
 # RUN dos2unix common/testdata/problemfiles/cases/*.in common/testdata/problemfiles/cases/*.out || true
+
