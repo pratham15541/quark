@@ -17,5 +17,6 @@ docker build -f Dockerfile.latest-build -t quark-latest .
 To run the tests inside the container:
 
 ```
-docker run --rm quark-latest go test ./...
+docker run --rm -it -v "$PWD:/app" -w /app quark-latest go test ./...
 ```
+
